@@ -1,0 +1,80 @@
+
+ Performance counter stats for './MatMul 1000 0':
+
+        13,431,899      cache-misses              #    8.514 % of all cache refs    
+       157,757,784      cache-references                                            
+
+      10.138965363 seconds time elapsed
+
+
+ Performance counter stats for './MatMul 1000 50':
+
+         1,111,562      cache-misses              #   14.788 % of all cache refs    
+         7,516,703      cache-references                                            
+
+       1.318695590 seconds time elapsed
+
+
+ Performance counter stats for './MatMul 1000 0':
+
+         6,512,074      cache-misses              #    4.239 % of all cache refs    
+       153,618,439      cache-references                                            
+
+       9.883079857 seconds time elapsed
+
+
+ Performance counter stats for './MatMul 1000 50':
+
+         1,153,153      cache-misses              #   15.343 % of all cache refs    
+         7,515,941      cache-references                                            
+
+       1.314052012 seconds time elapsed
+
+
+ Performance counter stats for './MatMul 1000 0':
+
+         7,366,202      cache-misses              #    5.473 % of all cache refs    
+       134,584,227      cache-references                                            
+
+       9.873656824 seconds time elapsed
+
+
+ Performance counter stats for './MatMul 1000 50':
+
+         1,176,090      cache-misses              #   15.621 % of all cache refs    
+         7,529,049      cache-references                                            
+
+       1.317713016 seconds time elapsed
+
+
+ Performance counter stats for './MatMul 1000 0':
+
+         6,964,403      cache-misses              #    4.060 % of all cache refs    
+       171,544,958      cache-references                                            
+
+       9.921844538 seconds time elapsed
+
+
+ Performance counter stats for './MatMul 1000 50':
+
+         1,186,083      cache-misses              #   15.778 % of all cache refs    
+         7,517,119      cache-references                                            
+
+       1.316975704 seconds time elapsed
+
+
+ Performance counter stats for './MatMul 1000 0':
+
+         7,788,975      cache-misses              #    5.615 % of all cache refs    
+       138,728,390      cache-references                                            
+
+       9.874956814 seconds time elapsed
+
+
+ Performance counter stats for './MatMul 1000 50':
+
+         1,111,335      cache-misses              #   14.780 % of all cache refs    
+         7,519,303      cache-references                                            
+
+       1.319205011 seconds time elapsed
+

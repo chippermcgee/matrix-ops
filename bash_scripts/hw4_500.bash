@@ -6,15 +6,15 @@
 #PBS l nodes=1:ppn=1 
 
 cd $PBS_O_WORKDIR
-MAT_SIZE=1000
+MAT_SIZE=500
 BLOCK_SIZE=50 
 
 
 for rep in `seq 1 5`
 do
-     echo '-------------------------[hw3 1000x1000 without blocks]-----------------------'
+     echo '-------------------------[hw4 1000x1000 without blocks]-----------------------'
      /usr/bin/time -v ./MatMul $MAT_SIZE 0
-     echo '-------------------------[hw3 1000x1000 with blocking] -----------------------'
+     echo '-------------------------[hw4 1000x1000 with blocking] -----------------------'
      /usr/bin/time -v ./MatMul $MAT_SIZE $BLOCK_SIZE
 done 
 
